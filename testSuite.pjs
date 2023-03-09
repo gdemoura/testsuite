@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{39619B06-2A1B-41E3-808B-AAC91779D543}">
+	<children>
+		<child name="Desktop" key="{BD780F52-017E-4254-BADC-3DF941CFCB36}" path="testSuite\Desktop.mds" />
+		<child name="Web" key="{855EA7D6-4636-407A-BC63-85F284C759C2}" path="Web\Web.mds" />
+		<child name="Mobile" key="{BD5F4659-B54E-4DBE-AB54-92C407E12407}" path="Mobile\Mobile.mds" />
+	</children>
+	<testItems key="{31849454-86BF-4414-B207-D178B2EF734A}">
+		<children>
+			<testItem key="{BD780F52-017E-4254-BADC-3DF941CFCB36}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{855EA7D6-4636-407A-BC63-85F284C759C2}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{BD5F4659-B54E-4DBE-AB54-92C407E12407}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{134F9AFD-74A3-4DA9-8DDE-485CCF61C3A3}" />
+	<analysis key="{FBBDE1C3-3ED1-4E18-BF78-14AD7AC1684F}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

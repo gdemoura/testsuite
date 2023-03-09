@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{ABF4040D-B5CC-447C-B795-541D63B1A1F5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{1B5F17B2-4691-45F4-A91F-F5CFF1E09C4E}">
+				<Data>
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Server URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://us-west-mobile-hub.bitbar.com/wd/hub" />
+						<Parameter Name="Tested URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+						<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;bitbar_device&quot;:&quot;Apple iPhone 13 Pro A2483 15.2 -US&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 13 Pro A2483 15.2 -US&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;bitbar_findDevice&quot;:&quot;true&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;browserName&quot;:&quot;Safari&quot;}" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{84CD44EE-17B8-44F2-B711-7EC813767198}" />
+</Root>

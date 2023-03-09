@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Mobile" Key="{418E3552-B96E-49E0-825C-D2EB92CE27E1}">
+				<TypeInfo Item0="{A225812F-8898-457D-951D-8F895EFF3D33}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Mobile" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Device" Key="{E2278AF2-66F7-432F-B5FC-64A335587522}">
+						<TypeInfo Item0="{32994BE8-4E18-4AFF-B1A4-574C21C92A97}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Device" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="processSmartBearQAAppsOrders" Key="{D133A08D-DD0B-43A7-91EA-9191E478FDDD}">
+								<TypeInfo Item0="{19831433-8C9C-4FC6-B55A-D75647AC1953}" />
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="SmartBear.QAApps.Orders" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="table" Key="{357C0AC1-3AE8-434C-9163-E52152B6EE95}">
+										<Image FileName="1380752667" Left="0" Top="0" Right="1290" Bottom="2545" />
+										<TypeInfo Item0="{66027A9F-CF06-46AD-969B-CF4C0F5FC349}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeTable" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;PRODUCT INFO&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeTable" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticText8" Key="{B83717CF-8B2B-4BA3-980F-834317EA39DD}">
+										<Image FileName="1380752667" Left="1172" Top="788" Right="1229" Bottom="833" />
+										<TypeInfo Item0="{66027A9F-CF06-46AD-969B-CF4C0F5FC349}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;8%%&quot; or @label=&quot;8%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;8%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[3]/XCUIElementTypeStaticText[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;8%%&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navigationBarOrders" Key="{06E39E77-A1B6-41F2-8449-A77102F87077}">
+										<Image FileName="1913798581" Left="0" Top="178" Right="1290" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;Edit&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeNavigationBar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAdd" Key="{B914DC3C-0A39-4453-B309-39FA5B412A83}">
+										<Image FileName="1913798581" Left="1127" Top="178" Right="1253" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Add&quot; or @label=&quot;Add&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Add&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Add&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="slider" Key="{792B1208-D2EC-4CEA-BB2B-2B52CE44E806}">
+										<Image FileName="1084324447" Left="54" Top="1035" Right="1181" Bottom="1143" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeSlider" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[4]/XCUIElementTypeSlider" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField" Key="{816B36D3-B5C6-4973-AAC1-66C5C21C0408}">
+										<Image FileName="-583682684" Left="60" Top="1597" Right="1229" Bottom="1693" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[6]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField2" Key="{7DB97EF3-958C-49DC-8206-FE8E4FB9AAE4}">
+										<Image FileName="1457106400" Left="60" Top="1730" Right="1229" Bottom="1826" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[7]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="table2" Key="{C0376E76-5D1F-425F-B308-2C3C00611010}">
+										<Image FileName="897037257" Left="0" Top="0" Right="1290" Bottom="2545" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeTable" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;ORDER DATE&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeTable" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField3" Key="{F2382CFF-2028-4EF9-8D2C-1220B1655F7E}">
+										<Image FileName="897037257" Left="60" Top="857" Right="1229" Bottom="950" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[8]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField4" Key="{18A9B86F-D4C6-408E-B501-D736BA12C479}">
+										<Image FileName="2056258305" Left="60" Top="990" Right="1229" Bottom="1083" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[9]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField5" Key="{E73FED3C-9C73-4E04-97CD-20F985AB75AD}">
+										<Image FileName="-1632666685" Left="60" Top="1123" Right="1229" Bottom="1216" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[10]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField6" Key="{77C81864-FDC6-47B5-B043-629DE2805B9F}">
+										<Image FileName="685947444" Left="60" Top="1401" Right="1229" Bottom="1494" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[11]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navigationBarOrder" Key="{5C2FA852-FE32-40EB-B215-3BF77B7DDC47}">
+										<Image FileName="-723723927" Left="0" Top="178" Right="1290" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;Order&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Order&quot;])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeNavigationBar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{6B14B66E-7BB2-49F7-8FED-7858D4C0728D}">
+										<Image FileName="-723723927" Left="1118" Top="178" Right="1253" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Save&quot; or @label=&quot;Save&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Save&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Order&quot;])[1]/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Save&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollView" Key="{0D82D6BB-DB9E-4A69-960E-4913A3209B94}">
+										<Image FileName="-1252873676" Left="238" Top="1491" Right="1051" Bottom="1626" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonYes" Key="{69DC4F90-840E-4321-B6F9-F967331E5377}">
+										<Image FileName="-1252873676" Left="645" Top="1491" Right="1051" Bottom="1626" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Yes&quot; or @label=&quot;Yes&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Yes&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther[3]/XCUIElementTypeButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Yes&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOrders" Key="{70570A0F-0318-45E9-B6C6-1FF9C48F515B}">
+										<Image FileName="-643970212" Left="0" Top="178" Right="262" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Order&quot;])[1]/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit" Key="{D8395DE0-0474-4FDC-8284-9F5A2C2F3032}">
+										<Image FileName="1956916700" Left="36" Top="178" Right="159" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Edit&quot; or @label=&quot;Edit&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Edit&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Edit&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDeleteGabe16MyMoney20230215" Key="{114E8A0F-CD6C-4985-A7B3-2AA8D8368E15}">
+										<Image FileName="-2069754092" Left="57" Top="344" Right="135" Bottom="422" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Delete Gabe, 16, MyMoney, 2023-02-15&quot; or @label=&quot;Delete Gabe, 16, MyMoney, 2023-02-15&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[contains(@label, &quot;Delete Gabe&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Delete Gabe, 16, MyMoney, 2023-02-15&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDelete" Key="{73F98A7E-9D1A-4361-A47C-8AEF687BC526}">
+										<Image FileName="1965286065" Left="1066" Top="311" Right="1289" Bottom="461" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeButton[@label=&quot;Delete&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[XCUIElementTypeStaticText[@label=&quot;Delete&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Delete&quot;])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeButton[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="other" Key="{4D123D38-60D4-43C8-96D9-2CE2DC7D2103}">
+										<Image FileName="877572381" Left="0" Top="311" Right="1290" Bottom="461" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticTextBobFeather" Key="{F06BEF8E-FEF1-4002-9A92-95757C3578F7}">
+										<Image FileName="433452089" Left="180" Top="332" Right="475" Bottom="398" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Bob Feather&quot; or @label=&quot;Bob Feather&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Bob Feather&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Bob Feather&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDone" Key="{B03E1AD6-FA9B-4F32-A158-1BCC76FB0349}">
+										<Image FileName="-1597420050" Left="33" Top="178" Right="195" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Done&quot; or @label=&quot;Done&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Done&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Done&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticTextGabe" Key="{1D5DEDBC-EF6F-460E-8C17-978291E1F23C}">
+										<Image FileName="-1013297397" Left="48" Top="294" Right="177" Bottom="360" />
+										<TypeInfo Item0="{66027A9F-CF06-46AD-969B-CF4C0F5FC349}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Gabe&quot; or @label=&quot;Gabe&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Gabe&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Gabe&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="processSmartbearExampleOrders" Key="{10119823-9202-4E1C-83A1-D9E02F215E01}">
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="smartbear.example.orders" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonNew" Key="{C12AF9A4-DFF6-4214-A2F2-6020B7EA28B7}">
+										<Image FileName="1323376656" Left="45" Top="255" Right="365" Bottom="391" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/newButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;New&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/buttons_layout&quot;]/android.widget.Button[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.Button[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollView" Key="{CFD12FDE-6198-4D3A-99EA-D819C0062AE2}">
+										<Image FileName="-1419660532" Left="0" Top="233" Right="1080" Bottom="2106" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/content&quot;]/android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout[2]/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextCustName" Key="{10F35176-5D7E-4308-9B00-212F420AE477}">
+										<Image FileName="-1419660532" Left="45" Top="1233" Right="1035" Bottom="1359" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/cust_name&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextStreet" Key="{516BAE80-0BC1-40E7-B7C6-0F1DAE1C857A}">
+										<Image FileName="-1092516715" Left="45" Top="1361" Right="1035" Bottom="1487" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/street&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextCity" Key="{69C172BB-FA86-4CBB-B9AF-87049FF28018}">
+										<Image FileName="1876257101" Left="45" Top="1361" Right="1035" Bottom="1487" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/city&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextCity2" Key="{7A10CE37-D490-4B51-971E-23F9E47C0A89}">
+										<Image FileName="286386225" Left="45" Top="1182" Right="1035" Bottom="1308" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/city&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextState" Key="{12623877-5336-47E1-ACCA-9F0B0AAE2AD8}">
+										<Image FileName="641562944" Left="45" Top="1361" Right="1035" Bottom="1487" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/state&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextState2" Key="{874C6D1D-6BED-4BD4-B0E5-DE8C17F713FA}">
+										<Image FileName="633877466" Left="45" Top="1182" Right="1035" Bottom="1308" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/state&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextCardNumber" Key="{8ABED267-349A-4598-A061-55BABFC33B26}">
+										<Image FileName="404410296" Left="45" Top="1777" Right="1035" Bottom="1903" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/card_number&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextCardNumber2" Key="{A66759B1-30B8-4AD4-BC29-42A951CA5610}">
+										<Image FileName="-1328902661" Left="45" Top="1182" Right="1035" Bottom="1308" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/card_number&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSetdata" Key="{FEB45D70-CF27-43B2-9BAF-2D6316B6CF8A}">
+										<Image FileName="-60210857" Left="540" Top="1866" Right="1035" Bottom="2001" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/button_setdata&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;SET DATE&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout[2]/android.widget.Button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="datePicker" Key="{A6569F8B-B238-4777-89B9-056888FDBF02}">
+										<Image FileName="-734841571" Left="135" Top="433" Right="945" Bottom="1648" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/datePicker&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.DatePicker" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/custom&quot;]/android.widget.DatePicker" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout/android.widget.DatePicker" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollView2" Key="{3CE1BC79-A74C-4DD8-B1E4-6D9D6CD36CD7}">
+										<Image FileName="-734841571" Left="135" Top="694" Right="945" Bottom="1648" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[*[@resource-id=&quot;android:id/animator&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/datePicker&quot;]/android.widget.LinearLayout/android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.DatePicker/android.widget.LinearLayout/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="viewPagerDayPickerViewPager" Key="{64A9352C-EFE1-497D-980E-C6F10D8FFAF2}">
+										<Image FileName="-734841571" Left="135" Top="694" Right="945" Bottom="1648" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/day_picker_view_pager&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//com.android.internal.widget.ViewPager" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@resource-id=&quot;android:id/month_view&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/date_picker_day_picker&quot;]/com.android.internal.widget.ViewPager" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.ViewGroup/com.android.internal.widget.ViewPager" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="view" Key="{991EC6A5-A417-4273-A99E-07D838568B9F}">
+										<Image FileName="-734841571" Left="587" Top="1309" Right="686" Bottom="1422" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@content-desc=&quot;23 February 2023&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;23&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/month_view&quot;]/android.view.View[23]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.view.View/android.view.View[23]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollViewButtonPanel" Key="{498D70C3-AB17-4F8D-8C74-1131FCFE17B0}">
+										<Image FileName="447370239" Left="135" Top="1648" Right="945" Bottom="1822" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/buttonPanel&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/parentPanel&quot;]/android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/content&quot;]/android.widget.LinearLayout/android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button1" Key="{524B138E-C94A-4FA3-BACB-2E746BBFB635}">
+										<Image FileName="447370239" Left="731" Top="1659" Right="911" Bottom="1811" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/button1&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;OK&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.Button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{EB62FF67-0D36-4B0D-9939-6F26C45FE088}">
+										<Image FileName="1856971067" Left="45" Top="2001" Right="1035" Bottom="2106" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/button_ok&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;OK&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollView3" Key="{51D302C7-19C2-430B-B638-456CD66AFDB5}">
+										<Image FileName="-495138678" Left="0" Top="233" Right="1080" Bottom="2106" />
+										<TypeInfo Item0="{66027A9F-CF06-46AD-969B-CF4C0F5FC349}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;android:id/content&quot;]/android.widget.ScrollView" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout[2]/android.widget.ScrollView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit" Key="{9531EB22-D6AC-4B74-87B3-CC5A0916F88A}">
+										<Image FileName="1182619398" Left="365" Top="255" Right="672" Bottom="391" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/editButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;Edit&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/buttons_layout&quot;]/android.widget.Button[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.Button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="listView1" Key="{B3C4C23D-AF35-40A5-B365-A6CB81CDD362}">
+										<Image FileName="1591528829" Left="45" Top="391" Right="1035" Bottom="1845" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/listView1&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.ListView" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[android.widget.TwoLineListItem]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.ListView" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewText1" Key="{256E42B3-1485-4D00-8C95-3F148720DC4B}">
+										<Image FileName="1591528829" Left="68" Top="596" Right="1035" Bottom="679" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@text=&quot;Clare Jefferson&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;android:id/text1&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.TwoLineListItem[2]/android.widget.TextView[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="editTextEditQuant" Key="{9D75A6DA-2306-4074-A493-7F02A1561EB1}">
+										<Image FileName="255219813" Left="45" Top="467" Right="1035" Bottom="593" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/edit_quant&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.EditText[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linearLayout" Key="{9167B1F0-E329-4E37-AB3E-AF98E2407E42}">
+										<Image FileName="-1918815555" Left="0" Top="0" Right="1080" Bottom="2106" />
+										<Selectors>
+											<Selector>
+												<Value Value="//android.widget.FrameLayout/android.widget.LinearLayout" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewText2" Key="{CB5296C5-3DF9-42D1-A288-39219A9A2CDD}">
+										<Image FileName="81395819" Left="68" Top="679" Right="1035" Bottom="732" />
+										<TypeInfo Item0="{66027A9F-CF06-46AD-969B-CF4C0F5FC349}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[contains(@text, &quot;5&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;android:id/text2&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.TwoLineListItem[2]/android.widget.TextView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textViewText12" Key="{E3E1D26F-8430-436F-9ED7-7D4666D1D4DA}">
+										<Image FileName="-1019155147" Left="68" Top="1688" Right="1035" Bottom="1771" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@text=&quot;Gabe&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@resource-id=&quot;android:id/text1&quot;])[8]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.TwoLineListItem[8]/android.widget.TextView[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDelete" Key="{7D406AA8-1EAF-4E5E-88E4-09D3CE185549}">
+										<Image FileName="768691153" Left="672" Top="255" Right="1035" Bottom="391" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/deleteButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;Delete&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/buttons_layout&quot;]/android.widget.Button[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.Button[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Device" Owner="{E2278AF2-66F7-432F-B5FC-64A335587522}">
+			<Child Name="processSmartBearQAAppsOrders" Owner="{D133A08D-DD0B-43A7-91EA-9191E478FDDD}">
+				<Child Name="table" Owner="{357C0AC1-3AE8-434C-9163-E52152B6EE95}">
+					<Child Name="staticText8" Owner="{B83717CF-8B2B-4BA3-980F-834317EA39DD}" />
+					<Child Name="slider" Owner="{792B1208-D2EC-4CEA-BB2B-2B52CE44E806}" />
+					<Child Name="textField" Owner="{816B36D3-B5C6-4973-AAC1-66C5C21C0408}" />
+					<Child Name="textField2" Owner="{7DB97EF3-958C-49DC-8206-FE8E4FB9AAE4}" />
+					<Child Name="buttonDeleteGabe16MyMoney20230215" Owner="{114E8A0F-CD6C-4985-A7B3-2AA8D8368E15}" />
+					<Child Name="buttonDelete" Owner="{73F98A7E-9D1A-4361-A47C-8AEF687BC526}" />
+					<Child Name="other" Owner="{4D123D38-60D4-43C8-96D9-2CE2DC7D2103}" />
+					<Child Name="staticTextBobFeather" Owner="{F06BEF8E-FEF1-4002-9A92-95757C3578F7}" />
+				</Child>
+				<Child Name="navigationBarOrders" Owner="{06E39E77-A1B6-41F2-8449-A77102F87077}">
+					<Child Name="buttonAdd" Owner="{B914DC3C-0A39-4453-B309-39FA5B412A83}" />
+					<Child Name="buttonEdit" Owner="{D8395DE0-0474-4FDC-8284-9F5A2C2F3032}" />
+					<Child Name="buttonDone" Owner="{B03E1AD6-FA9B-4F32-A158-1BCC76FB0349}" />
+				</Child>
+				<Child Name="table2" Owner="{C0376E76-5D1F-425F-B308-2C3C00611010}">
+					<Child Name="textField3" Owner="{F2382CFF-2028-4EF9-8D2C-1220B1655F7E}" />
+					<Child Name="textField4" Owner="{18A9B86F-D4C6-408E-B501-D736BA12C479}" />
+					<Child Name="textField5" Owner="{E73FED3C-9C73-4E04-97CD-20F985AB75AD}" />
+					<Child Name="textField6" Owner="{77C81864-FDC6-47B5-B043-629DE2805B9F}" />
+					<Child Name="staticTextGabe" Owner="{1D5DEDBC-EF6F-460E-8C17-978291E1F23C}" />
+				</Child>
+				<Child Name="navigationBarOrder" Owner="{5C2FA852-FE32-40EB-B215-3BF77B7DDC47}">
+					<Child Name="buttonSave" Owner="{6B14B66E-7BB2-49F7-8FED-7858D4C0728D}" />
+					<Child Name="buttonOrders" Owner="{70570A0F-0318-45E9-B6C6-1FF9C48F515B}" />
+				</Child>
+				<Child Name="scrollView" Owner="{0D82D6BB-DB9E-4A69-960E-4913A3209B94}">
+					<Child Name="buttonYes" Owner="{69DC4F90-840E-4321-B6F9-F967331E5377}" />
+				</Child>
+			</Child>
+			<Child Name="processSmartbearExampleOrders" Owner="{10119823-9202-4E1C-83A1-D9E02F215E01}">
+				<Child Name="buttonNew" Owner="{C12AF9A4-DFF6-4214-A2F2-6020B7EA28B7}" />
+				<Child Name="scrollView" Owner="{CFD12FDE-6198-4D3A-99EA-D819C0062AE2}">
+					<Child Name="editTextCustName" Owner="{10F35176-5D7E-4308-9B00-212F420AE477}" />
+					<Child Name="editTextStreet" Owner="{516BAE80-0BC1-40E7-B7C6-0F1DAE1C857A}" />
+					<Child Name="editTextCity" Owner="{69C172BB-FA86-4CBB-B9AF-87049FF28018}" />
+					<Child Name="editTextCity2" Owner="{7A10CE37-D490-4B51-971E-23F9E47C0A89}" />
+					<Child Name="editTextState" Owner="{12623877-5336-47E1-ACCA-9F0B0AAE2AD8}" />
+					<Child Name="editTextState2" Owner="{874C6D1D-6BED-4BD4-B0E5-DE8C17F713FA}" />
+					<Child Name="editTextCardNumber" Owner="{8ABED267-349A-4598-A061-55BABFC33B26}" />
+					<Child Name="editTextCardNumber2" Owner="{A66759B1-30B8-4AD4-BC29-42A951CA5610}" />
+					<Child Name="buttonSetdata" Owner="{FEB45D70-CF27-43B2-9BAF-2D6316B6CF8A}" />
+					<Child Name="buttonOk" Owner="{EB62FF67-0D36-4B0D-9939-6F26C45FE088}" />
+					<Child Name="editTextEditQuant" Owner="{9D75A6DA-2306-4074-A493-7F02A1561EB1}" />
+				</Child>
+				<Child Name="datePicker" Owner="{A6569F8B-B238-4777-89B9-056888FDBF02}">
+					<Child Name="scrollView2" Owner="{3CE1BC79-A74C-4DD8-B1E4-6D9D6CD36CD7}">
+						<Child Name="viewPagerDayPickerViewPager" Owner="{64A9352C-EFE1-497D-980E-C6F10D8FFAF2}">
+							<Child Name="view" Owner="{991EC6A5-A417-4273-A99E-07D838568B9F}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="scrollViewButtonPanel" Owner="{498D70C3-AB17-4F8D-8C74-1131FCFE17B0}">
+					<Child Name="button1" Owner="{524B138E-C94A-4FA3-BACB-2E746BBFB635}" />
+				</Child>
+				<Child Name="scrollView3" Owner="{51D302C7-19C2-430B-B638-456CD66AFDB5}" />
+				<Child Name="buttonEdit" Owner="{9531EB22-D6AC-4B74-87B3-CC5A0916F88A}" />
+				<Child Name="listView1" Owner="{B3C4C23D-AF35-40A5-B365-A6CB81CDD362}">
+					<Child Name="textViewText1" Owner="{256E42B3-1485-4D00-8C95-3F148720DC4B}" />
+					<Child Name="textViewText2" Owner="{CB5296C5-3DF9-42D1-A288-39219A9A2CDD}" />
+					<Child Name="textViewText12" Owner="{E3E1D26F-8430-436F-9ED7-7D4666D1D4DA}" />
+				</Child>
+				<Child Name="linearLayout" Owner="{9167B1F0-E329-4E37-AB3E-AF98E2407E42}" />
+				<Child Name="buttonDelete" Owner="{7D406AA8-1EAF-4E5E-88E4-09D3CE185549}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

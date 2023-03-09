@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="smartstore">
+			<child name="close" key="{36341440-6515-4DB6-A923-48D2DFB0BC90}" path="close.tcKDTest" />
+			<child name="contactUsFlow" key="{5165A0D9-8184-4629-A019-9AE9747DD1BB}" path="contactUsFlow.tcKDTest" />
+			<child name="login" key="{6E525CD4-8F77-46D6-A909-76D91AF9B837}" path="login.tcKDTest" />
+			<child name="logout" key="{5306D129-C2E5-4666-97EA-64AAF8285DBC}" path="logout.tcKDTest" />
+			<child name="purchase" key="{66868725-4AF4-4259-8377-C2AB360B6145}" path="purchase.tcKDTest" />
+		</folder>
+		<folder name="sandbox" />
+		<child name="Test1" key="{5E3A731B-1F8D-4F7F-BBA1-BB4175FC3D2E}" path="Test1.tcKDTest" />
+		<child name="loginFail" key="{E227E1D4-9E37-45FE-B1BD-57B6F8BC0F01}" path="loginFail.tcKDTest" />
+		<child name="contactUSData" key="{A5EBC3B0-DB3F-433B-B92D-E70D77534324}" path="contactUSData.tcKDTest" />
+		<child name="contactUsND" key="{09C67068-89F6-4E14-AFF9-457A1E2B44E9}" path="contactUsND.tcKDTest" />
+	</children>
+</Root>
