@@ -1519,6 +1519,666 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageHighSpeedInternetMobileCable" Key="{C5DFE215-C6AE-4BAB-8D4C-D7FDEDB2DFAA}">
+								<Image FileName="773375115" Left="8" Top="112" Right="508" Bottom="1048" />
+								<TypeInfo Item0="{72F8DAAA-4E61-4878-AAEC-8FE6FF05D38B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.shaw.ca/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerSkipToMainContent" Key="{99C4138D-4BEB-4F62-B316-8C8666A6F4E1}">
+										<Image FileName="773375115" Left="8" Top="168" Right="491" Bottom="224" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;Skip to Main Content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;o-component&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame" Key="{1C48D294-402E-4B3F-B5D7-485B7960F9F6}">
+										<Image FileName="631514247" Left="28" Top="213" Right="488" Bottom="1028" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/div/iframe[@title=&apos;sign-in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/iframe[contains(@class, &apos;c-sign-in__iframe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/iframe" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRegisterShawCa" Key="{DB770610-D18E-4F8F-81B6-533A2E8A7B77}">
+								<TypeInfo Item0="{72F8DAAA-4E61-4878-AAEC-8FE6FF05D38B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://register.shaw.ca/" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLoginSalesforce" Key="{51822D2D-12F5-4355-A9E1-1FF31CCFEFE1}">
+								<Image FileName="55810655" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear--tcqa.sandbox.my.salesforce.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginForm" Key="{317789D5-A646-4B7D-AD47-72D5255AA1F2}">
+										<Image FileName="55810655" Left="311" Top="401" Right="649" Bottom="686" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;To access this page, you have to log in to Salesforce.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;smartbear--tcqa.sandbox.my.salesforce.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;theloginform&apos;]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputToAccessThisPageYouHav" Key="{1B12FF41-6C2E-4437-9276-C9BE7B0DD661}">
+										<Image FileName="55810655" Left="311" Top="453" Right="649" Bottom="496" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//div[.=&apos;To access this page, you have to log in to Salesforce.&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;usernamegroup&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxToAccessThisPageYouHa" Key="{783ABDBB-B86C-4CA1-B575-88395AD9A6BC}">
+										<Image FileName="-699302773" Left="311" Top="535" Right="649" Bottom="578" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pw&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogInToSandbox" Key="{FEBB4B7A-A9E1-4595-9327-0DE5B165789A}">
+										<Image FileName="-230480813" Left="311" Top="594" Right="649" Bottom="637" />
+										<TypeInfo Item0="{E53AADBA-CC7F-4C9A-9292-7DD328AD9B84}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Login" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Log In to Sandbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRecentlyViewedLeadsSalesforc" Key="{ACB63D0F-6893-4BDF-AF3C-8ECE8CEED8AB}">
+								<Image FileName="68147036" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear--tcqa.sandbox.lightning.force.com/lightning/o/Lead/list*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSandboxTcqa" Key="{AFAC1107-8ACD-4F64-B99B-F36D176D3B02}">
+										<Image FileName="68147036" Left="0" Top="226" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sandbox: TCQA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navGlobal" Key="{C69AF52C-D9C3-4649-B271-01B5B21013AD}">
+										<Image FileName="68147036" Left="264" Top="186" Right="1920" Bottom="223" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Accounts&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@aria-label=&apos;Global&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;slds-context-bar__secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLeadsList" Key="{37F4525A-6E58-4ACA-AD8F-CAD1E9F4EB75}">
+										<Image FileName="68147036" Left="1155" Top="198" Right="1169" Bottom="214" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Leads List&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{FA7E1B34-242C-4656-9AC0-A32CDEC33F83}">
+										<Image FileName="68147036" Left="1155" Top="199" Right="1169" Bottom="213" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a/lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;slds-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a/lightning-icon//lightning-primitive-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNewLead" Key="{40CA90B0-D6D7-4B08-9441-B8B1B37802C5}">
+										<Image FileName="-104018652" Left="1043" Top="226" Right="1281" Bottom="261" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;New Lead&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar-menu-item/a[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/div[@role=&apos;menu&apos;]//slot/one-app-nav-bar-menu-item/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNewLeadMasterLeadRecordSales" Key="{8C72E01C-53F1-4326-9D05-3FF5A7E0090C}">
+								<Image FileName="68147036" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear--tcqa.sandbox.lightning.force.com/lightning/o/Lead/new*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="fieldsetUndefinednameundefined" Key="{AF6DBD50-A3E1-40F2-8A59-C5C6436C67B7}">
+										<Image FileName="1571255759" Left="527" Top="396" Right="936" Bottom="552" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-input-name/fieldset[contains(@class, &apos;slds-form-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sectionContent-192&apos;]//lightning-input-name/fieldset" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-input-name/fieldset" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstName" Key="{90D79E49-E6AE-4FD6-B223-56C248D570AA}">
+										<Image FileName="1571255759" Left="662" Top="468" Right="936" Bottom="500" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;First Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;firstName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset//lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastname" Key="{2D458FED-E8F9-483B-A9E5-03650C526A8C}">
+										<Image FileName="-1676615909" Left="662" Top="520" Right="936" Bottom="552" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;*Last Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;lastName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset//div[3]/lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCompany" Key="{BC2971B2-A210-436F-A1F0-56874778570F}">
+										<Image FileName="-715075615" Left="662" Top="476" Right="936" Bottom="508" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;*Company&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Company&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-row[6]/slot/records-record-layout-item//slot/records-record-layout-base-input/lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fieldsetAddressundefined" Key="{E617C39D-4BCD-48B7-84B3-6C0E3FEBDF35}">
+										<Image FileName="1011844923" Left="527" Top="318" Right="936" Bottom="636" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;Address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-input-address/fieldset[contains(@class, &apos;slds-form-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sectionContent-192&apos;]//lightning-input-address/fieldset" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-input-address/fieldset" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxComboboxInput884" Key="{EA54C2F0-1E04-4893-A970-6C9683BEA9C9}">
+										<Image FileName="1011844923" Left="527" Top="357" Right="936" Bottom="389" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=&apos;combobox-input-884&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#combobox-input-884" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-lookup-address//lightning-base-combobox//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-lookup-address//lightning-base-combobox//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPhone" Key="{8CDB3DC5-1EE9-400B-A4E8-F8F0EA6FB4BA}">
+										<Image FileName="-1236301669" Left="1102" Top="288" Right="1376" Bottom="320" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Phone&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Phone&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-item[2]//slot/lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCombobox" Key="{63CCA8A7-A7CE-490D-997A-736F1F3064BB}">
+										<Image FileName="-1190093309" Left="527" Top="457" Right="936" Bottom="489" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/lightning-lookup-address//lightning-base-combobox//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-lookup-address//lightning-base-combobox//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/lightning-lookup-address//lightning-base-combobox//input[contains(@class, &apos;slds-combobox__input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-lookup-address//lightning-base-combobox//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCity" Key="{7C978C99-5DDB-484E-AB44-DE23C34CDCEF}">
+										<Image FileName="-458719051" Left="527" Top="669" Right="799" Bottom="701" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;City&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;city&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset//div[4]/lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxZipPostalCode" Key="{89FE84F7-3751-4235-BF07-C369C3F97202}">
+										<Image FileName="-110767943" Left="527" Top="724" Right="936" Bottom="756" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Zip/Postal Code&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;postalCode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset//div[5]/lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLightningExperienceSalesforc" Key="{DFCA958F-8987-491F-9857-F151E60C32DA}">
+								<Image FileName="-1632663195" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear--tcqa.sandbox.lightning.force.com/lightning/r/Lead/00QDJ000004gJGL2A2/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSandboxTcqa" Key="{76FEEA61-987C-413F-9A90-4F040D04D133}">
+										<Image FileName="-1632663195" Left="0" Top="226" Right="1903" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sandbox: TCQA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBruceWayne" Key="{50275266-D918-4EF2-9F05-F1C5CFE15A48}">
+										<Image FileName="-1632663195" Left="69" Top="258" Right="179" Bottom="282" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-formatted-name[.=&apos;Bruce Wayne&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//h1/slot/lightning-formatted-name" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1/slot/lightning-formatted-name" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRecentlyViewedAccountsSalesf" Key="{0B3CA89C-4CE9-4307-9E74-9FF559067377}">
+								<Image FileName="1435854027" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear--tcqa.sandbox.lightning.force.com/lightning/o/Account/list*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSandboxTcqa" Key="{00145D95-6F5E-4E97-98D8-6D95C6EE35CA}">
+										<Image FileName="1435854027" Left="0" Top="226" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sandbox: TCQA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navGlobal" Key="{F76AB2F8-496E-434E-8A83-75100AF918E0}">
+										<Image FileName="1435854027" Left="264" Top="186" Right="1920" Bottom="223" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Accounts&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@aria-label=&apos;Global&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;slds-context-bar__secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLeadsList" Key="{38B78644-B22A-4771-AC89-2231C286A2EE}">
+										<Image FileName="1435854027" Left="1155" Top="198" Right="1169" Bottom="214" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Leads List&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar/nav//one-app-nav-bar-item-root[10]/one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{CEBBFE4A-CCF9-4214-A989-2F33E44C1559}">
+										<Image FileName="1435854027" Left="1156" Top="203" Right="1168" Bottom="210" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-root[10]//span/lightning-primitive-icon/*[name()=&apos;svg&apos;]/*[name()=&apos;g&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNewLead" Key="{852C4367-C42A-42CF-A0A9-F468E0920E1D}">
+										<Image FileName="-1244055444" Left="1112" Top="226" Right="1212" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;New Lead&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-nav-bar-item-dropdown//one-app-nav-bar-menu-button/div[@role=&apos;menu&apos;]//slot/one-app-nav-bar-menu-item/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNewLead" Key="{0B245D78-0873-4E75-B878-C11923341B34}">
+										<Image FileName="-1244055444" Left="1148" Top="235" Right="1200" Bottom="251" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;New Lead&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;e&apos;)]//span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]//slot/one-app-nav-bar-menu-item/a/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLightningExperienceSalesforc2" Key="{64272033-8E8E-4DFD-947C-2F8E9B450A55}">
+								<Image FileName="1435854027" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{72F8DAAA-4E61-4878-AAEC-8FE6FF05D38B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear--tcqa.sandbox.lightning.force.com/lightning/r/Lead/00QDJ000004gJGQ2A2/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBruceWayne" Key="{3129B807-F301-479B-AB5A-25DD66C9383D}">
+										<Image FileName="-1913011501" Left="69" Top="258" Right="179" Bottom="282" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//lightning-formatted-name[.=&apos;Bruce Wayne&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//h1/slot/lightning-formatted-name" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1/slot/lightning-formatted-name" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDetails" Key="{3E8F9B59-BABA-4FA8-8FF8-6747E9CC5195}">
+										<Image FileName="-1406536428" Left="25" Top="374" Right="1258" Bottom="414" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDetailtabItem" Key="{7BF5FECD-9664-43DB-8098-DFBB13870901}">
+										<Image FileName="-1406536428" Left="37" Top="374" Right="88" Bottom="414" />
+										<Selectors>
+											<Selector>
+												<Value Value="#detailTab__item" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail" Key="{F110D5B4-EC49-4601-A061-E54542064680}">
+										<Image FileName="114042145" Left="848" Top="607" Right="1234" Bottom="639" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-row[8]/slot/records-record-layout-item[2]//slot/lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBatmanSmartbearCom" Key="{CFACC907-B736-4E50-AD4E-801169A2382F}">
+										<Image FileName="-569136678" Left="657" Top="316" Right="1241" Bottom="339" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//slot/records-record-layout-row[8]/slot/records-record-layout-item[2]//div[contains(@class, &apos;slds-form-element__control&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile" Key="{BCD35132-6079-4F00-AC2D-1A9E6EA63735}">
+										<Image FileName="148823908" Left="848" Top="544" Right="1234" Bottom="576" />
+										<TypeInfo Item0="{F088239E-8094-4720-9BBE-BD2797859692}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Mobile&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;MobilePhone&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-row[5]/slot/records-record-layout-item//slot/lightning-input//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6179135963" Key="{D501B094-00EA-4A39-BD9B-A0F442971289}">
+										<Image FileName="-1673769868" Left="657" Top="298" Right="1241" Bottom="321" />
+										<TypeInfo Item0="{BF06E834-27C6-4E6C-A1F4-12D826675958}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//slot/records-record-layout-row[5]/slot/records-record-layout-item[2]//div[contains(@class, &apos;slds-form-element__control&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{487A21D8-79B7-4EB3-B11A-0EF56ACCFA8F}">
@@ -1724,6 +2384,70 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageHighSpeedInternetMobileCable" Owner="{C5DFE215-C6AE-4BAB-8D4C-D7FDEDB2DFAA}">
+				<Child Name="headerSkipToMainContent" Owner="{99C4138D-4BEB-4F62-B316-8C8666A6F4E1}">
+					<Child Name="frame" Owner="{1C48D294-402E-4B3F-B5D7-485B7960F9F6}" />
+				</Child>
+			</Child>
+			<Child Name="pageRegisterShawCa" Owner="{DB770610-D18E-4F8F-81B6-533A2E8A7B77}" />
+			<Child Name="pageLoginSalesforce" Owner="{51822D2D-12F5-4355-A9E1-1FF31CCFEFE1}">
+				<Child Name="formLoginForm" Owner="{317789D5-A646-4B7D-AD47-72D5255AA1F2}">
+					<Child Name="emailinputToAccessThisPageYouHav" Owner="{1B12FF41-6C2E-4437-9276-C9BE7B0DD661}" />
+					<Child Name="passwordboxToAccessThisPageYouHa" Owner="{783ABDBB-B86C-4CA1-B575-88395AD9A6BC}" />
+					<Child Name="submitbuttonLogInToSandbox" Owner="{FEBB4B7A-A9E1-4595-9327-0DE5B165789A}" />
+				</Child>
+			</Child>
+			<Child Name="pageRecentlyViewedLeadsSalesforc" Owner="{ACB63D0F-6893-4BDF-AF3C-8ECE8CEED8AB}">
+				<Child Name="sectionSandboxTcqa" Owner="{AFAC1107-8ACD-4F64-B99B-F36D176D3B02}">
+					<Child Name="navGlobal" Owner="{C69AF52C-D9C3-4649-B271-01B5B21013AD}">
+						<Child Name="linkLeadsList" Owner="{37F4525A-6E58-4ACA-AD8F-CAD1E9F4EB75}">
+							<Child Name="vg" Owner="{FA7E1B34-242C-4656-9AC0-A32CDEC33F83}" />
+						</Child>
+						<Child Name="linkNewLead" Owner="{40CA90B0-D6D7-4B08-9441-B8B1B37802C5}" />
+					</Child>
+					<Child Name="textnodeDetails" Owner="{3E8F9B59-BABA-4FA8-8FF8-6747E9CC5195}">
+						<Child Name="linkDetailtabItem" Owner="{7BF5FECD-9664-43DB-8098-DFBB13870901}">
+							<Child Name="textboxEmail" Owner="{F110D5B4-EC49-4601-A061-E54542064680}" />
+							<Child Name="panelBatmanSmartbearCom" Owner="{CFACC907-B736-4E50-AD4E-801169A2382F}" />
+							<Child Name="textboxMobile" Owner="{BCD35132-6079-4F00-AC2D-1A9E6EA63735}" />
+							<Child Name="panel6179135963" Owner="{D501B094-00EA-4A39-BD9B-A0F442971289}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageNewLeadMasterLeadRecordSales" Owner="{8C72E01C-53F1-4326-9D05-3FF5A7E0090C}">
+				<Child Name="fieldsetUndefinednameundefined" Owner="{AF6DBD50-A3E1-40F2-8A59-C5C6436C67B7}">
+					<Child Name="textboxFirstName" Owner="{90D79E49-E6AE-4FD6-B223-56C248D570AA}" />
+					<Child Name="textboxLastname" Owner="{2D458FED-E8F9-483B-A9E5-03650C526A8C}" />
+				</Child>
+				<Child Name="textboxCompany" Owner="{BC2971B2-A210-436F-A1F0-56874778570F}" />
+				<Child Name="fieldsetAddressundefined" Owner="{E617C39D-4BCD-48B7-84B3-6C0E3FEBDF35}">
+					<Child Name="textboxComboboxInput884" Owner="{EA54C2F0-1E04-4893-A970-6C9683BEA9C9}" />
+					<Child Name="textboxCombobox" Owner="{63CCA8A7-A7CE-490D-997A-736F1F3064BB}" />
+					<Child Name="textboxCity" Owner="{7C978C99-5DDB-484E-AB44-DE23C34CDCEF}" />
+					<Child Name="textboxZipPostalCode" Owner="{89FE84F7-3751-4235-BF07-C369C3F97202}" />
+				</Child>
+				<Child Name="textboxPhone" Owner="{8CDB3DC5-1EE9-400B-A4E8-F8F0EA6FB4BA}" />
+			</Child>
+			<Child Name="pageLightningExperienceSalesforc" Owner="{DFCA958F-8987-491F-9857-F151E60C32DA}">
+				<Child Name="sectionSandboxTcqa" Owner="{76FEEA61-987C-413F-9A90-4F040D04D133}">
+					<Child Name="textnodeBruceWayne" Owner="{50275266-D918-4EF2-9F05-F1C5CFE15A48}" />
+				</Child>
+			</Child>
+			<Child Name="pageRecentlyViewedAccountsSalesf" Owner="{0B3CA89C-4CE9-4307-9E74-9FF559067377}">
+				<Child Name="sectionSandboxTcqa" Owner="{00145D95-6F5E-4E97-98D8-6D95C6EE35CA}">
+					<Child Name="navGlobal" Owner="{F76AB2F8-496E-434E-8A83-75100AF918E0}">
+						<Child Name="linkLeadsList" Owner="{38B78644-B22A-4771-AC89-2231C286A2EE}">
+							<Child Name="textnode" Owner="{CEBBFE4A-CCF9-4214-A989-2F33E44C1559}" />
+						</Child>
+						<Child Name="linkNewLead" Owner="{852C4367-C42A-42CF-A0A9-F468E0920E1D}">
+							<Child Name="textnodeNewLead" Owner="{0B245D78-0873-4E75-B878-C11923341B34}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeBruceWayne" Owner="{3129B807-F301-479B-AB5A-25DD66C9383D}" />
+				</Child>
+			</Child>
+			<Child Name="pageLightningExperienceSalesforc2" Owner="{64272033-8E8E-4DFD-947C-2F8E9B450A55}" />
 		</Child>
 		<Child Name="explorer" Owner="{487A21D8-79B7-4EB3-B11A-0EF56ACCFA8F}">
 			<Child Name="wndShell_SecondaryTrayWnd" Owner="{9EC0D62C-2608-4F1F-8FBC-50AD8F59B444}">

@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{6E525CD4-8F77-46D6-A909-76D91AF9B837}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44972.8348263889" objectName="Aliases.browser.pageShop.header.navUsd.linkLogIn.textnodeLogIn" objectLeft="1448" objectTop="120" objectRight="1496" objectBottom="137" clickPointX="1473" clickPointY="127" imageFileName="tcvi15810140242324.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44972.834849537" objectName="Aliases.browser.pageLogin.sectionContent.username" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi15811750242325.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44972.8348611111" objectName="Aliases.browser.pageLogin.sectionContent.username" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi15813171242326.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44972.8348958333" objectName="Aliases.browser.pageLogin.sectionContent.passwordboxPassword" objectLeft="1092" objectTop="555" objectRight="1475" objectBottom="606" clickPointX="1263" clickPointY="572" imageFileName="tcvi15816265242327.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44972.8349074074" objectName="Aliases.browser.pageLogin.sectionContent.passwordboxPassword" objectLeft="1092" objectTop="555" objectRight="1475" objectBottom="606" clickPointX="-3841" clickPointY="-1" imageFileName="tcvi15817250242328.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44972.8349421296" objectName="Aliases.browser.pageLogin.sectionContent.buttonLogIn" objectLeft="1092" objectTop="661" objectRight="1475" objectBottom="712" clickPointX="1266" clickPointY="684" imageFileName="tcvi15820468242329.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
+	<data key="{6E525CD4-8F77-46D6-A909-76D91AF9B837}" />
 </Root>

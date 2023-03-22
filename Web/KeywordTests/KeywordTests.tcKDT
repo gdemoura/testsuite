@@ -13,5 +13,6 @@
 		<child name="loginFail" key="{E227E1D4-9E37-45FE-B1BD-57B6F8BC0F01}" path="loginFail.tcKDTest" />
 		<child name="contactUSData" key="{A5EBC3B0-DB3F-433B-B92D-E70D77534324}" path="contactUSData.tcKDTest" />
 		<child name="contactUsND" key="{09C67068-89F6-4E14-AFF9-457A1E2B44E9}" path="contactUsND.tcKDTest" />
+		<child name="Test2" key="{2135408E-0469-4433-9986-6973CF8B815F}" path="Test2.tcKDTest" />
 	</children>
 </Root>

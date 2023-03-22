@@ -13,8 +13,12 @@
 				<testParameters />
 				<children>
 					<testItem name="firstTest" key="{F2A13AEE-80CE-4154-8BFD-8E6C4DEC4F2B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E525CD4-8F77-46D6-A909-76D91AF9B837}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
+						<testParameters>
+							<param0 name="sandbox" type="1" localVarName="" value="https://bearstore-testsite.smartbear.com/" />
+						</testParameters>
+						<environments activeCloud="SWT">
+							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/" />
+						</environments>
 						<children>
 							<testItem name="secondTest" key="{24B34842-7927-4B8A-8022-4BC8F769C6F6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5165A0D9-8184-4629-A019-9AE9747DD1BB}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
@@ -66,6 +70,9 @@
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
 					</DefValue>
+				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003100330044003100460034004400380038004200460031003800430039003800410037003900330033004100390041003000390035003300420038003300320044003400330042003800320032003100310041003500460035004500420046004400350031004100350043004100450037004600" />
 				</Variable>
 			</Items>
 		</data>
