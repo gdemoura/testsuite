@@ -6,5 +6,7 @@
 		<child name="Unit2" key="{7AD6CD5F-1F89-47EA-B3CB-EC4B87E276A0}" path="Unit2.js" />
 		<child name="BB" key="{4D97A5E7-1799-4959-A6EB-2F4C6AB6DB4E}" path="BB.js" />
 		<child name="dataloop" key="{6981E5C8-FA9A-4CD1-8950-3DFF43C933B2}" path="dataloop.js" />
+		<child name="Unit3" key="{A6954649-86C3-40EA-B25A-45446FCCFE32}" path="Unit3.js" />
+		<child name="Unit4" key="{36AF676C-305D-43D7-9BC6-0971FA43F04D}" path="Unit4.js" />
 	</children>
 </Root>

@@ -336,6 +336,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkService" Key="{19E294B2-DCB8-4061-8045-36CE3BFB157A}">
+										<Image FileName="1199919154" Left="1199" Top="111" Right="1285" Bottom="163" />
+										<TypeInfo Item0="{55BF4203-E7F1-436E-8F48-D7DC224F20D0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Service&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav/nav[2]/div//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[2]/div//a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageContactus" Key="{C4C48FD2-537D-41D2-A8AC-F3F576DDAC13}">
@@ -2223,6 +2241,99 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndCabinetWClass" Key="{4378A4E3-E684-4A5F-972F-5832C2ABAD56}">
+								<Image FileName="-236987294" Left="0" Top="0" Right="1139" Bottom="904" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ShellTabWindowClass" Key="{39EEF884-256F-4B60-8CD9-9F76E5A1868C}">
+										<Image FileName="-236987294" Left="8" Top="189" Right="1131" Bottom="896" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ShellTabWindowClass" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DUIViewWndClassName" Key="{E6546C1D-CCBF-407A-8899-90225783FC91}">
+												<Image FileName="-236987294" Left="8" Top="192" Right="1131" Bottom="896" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="DUIViewWndClassName" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Explorer_Pane" Key="{98E7298E-8B24-49CF-9FF1-CEBC8B248BF1}">
+														<Image FileName="-236987294" Left="8" Top="192" Right="1131" Bottom="896" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="DirectUI" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="HWNDView" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="pane" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Explorer_Pane" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CtrlNotifySink" Key="{86B4DBF5-7794-46AA-814C-B41E26D2FD72}">
+																<Image FileName="-236987294" Left="8" Top="192" Right="227" Bottom="873" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CtrlNotifySink" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NamespaceTreeControl" Key="{073A23F5-79C2-4428-B5D1-A859EAAA79D7}" ExtendedFind="True">
+																		<Image FileName="-236987294" Left="8" Top="192" Right="227" Bottom="873" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="NamespaceTreeControl" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="Namespace Tree Control" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="tvNamespaceTreeControl" Key="{EABFB2CD-2773-4F55-9D8A-31C0349411B1}">
+																				<Image FileName="-236987294" Left="8" Top="192" Right="227" Bottom="873" />
+																				<TypeInfo Item0="{4CED1778-9452-4026-8ED7-74FB8706C35C}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="SysTreeView32" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="Tree View" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -2237,6 +2348,7 @@
 					<Child Name="navUsd" Owner="{87662FE3-4029-4A8C-A172-C7F10144637E}">
 						<Child Name="navContactUs" Owner="{F557DF13-1758-4446-A14A-FFAEE59790BE}">
 							<Child Name="linkContactUs" Owner="{9C3C8DB0-9693-4CAC-9BE6-BF978EBF685F}" />
+							<Child Name="linkService" Owner="{19E294B2-DCB8-4061-8045-36CE3BFB157A}" />
 						</Child>
 						<Child Name="linkLogIn" Owner="{4FB314B5-4B07-49B9-AD69-C41F56891746}">
 							<Child Name="textnodeLogIn" Owner="{0869DD2C-7846-4AC1-A396-4FBCD62397A0}" />
@@ -2453,6 +2565,19 @@
 			<Child Name="wndShell_SecondaryTrayWnd" Owner="{9EC0D62C-2608-4F1F-8FBC-50AD8F59B444}">
 				<Child Name="WorkerW" Owner="{DFA88316-87B7-4154-8F75-835AF1A9ECAD}">
 					<Child Name="MSTaskListWClass" Owner="{3A2EC291-2A0E-4A8F-BC21-AC78F165FEF8}" />
+				</Child>
+			</Child>
+			<Child Name="wndCabinetWClass" Owner="{4378A4E3-E684-4A5F-972F-5832C2ABAD56}">
+				<Child Name="ShellTabWindowClass" Owner="{39EEF884-256F-4B60-8CD9-9F76E5A1868C}">
+					<Child Name="DUIViewWndClassName" Owner="{E6546C1D-CCBF-407A-8899-90225783FC91}">
+						<Child Name="Explorer_Pane" Owner="{98E7298E-8B24-49CF-9FF1-CEBC8B248BF1}">
+							<Child Name="CtrlNotifySink" Owner="{86B4DBF5-7794-46AA-814C-B41E26D2FD72}">
+								<Child Name="NamespaceTreeControl" Owner="{073A23F5-79C2-4428-B5D1-A859EAAA79D7}">
+									<Child Name="tvNamespaceTreeControl" Owner="{EABFB2CD-2773-4F55-9D8A-31C0349411B1}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 		</Child>

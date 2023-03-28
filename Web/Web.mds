@@ -22,7 +22,7 @@
 						<children>
 							<testItem name="secondTest" key="{24B34842-7927-4B8A-8022-4BC8F769C6F6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5165A0D9-8184-4629-A019-9AE9747DD1BB}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="LocalHeadlessBrowser" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 							<testItem name="thirdtest" key="{EDAF1367-03C6-4893-8F56-4280D302187A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5306D129-C2E5-4666-97EA-64AAF8285DBC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -43,7 +43,7 @@
 			<testItem name="TC+BB" key="{7CB387FF-4333-4C77-A96B-2E2FFDF919B3}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="BBlogin" key="{8BBC1D5D-59BF-4956-B838-A3B8EE1E2371}" group="False" parallel="False" enabled="False" testMoniker="KDT\{5E3A731B-1F8D-4F7F-BBA1-BB4175FC3D2E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+					<testItem name="BBlogin" key="{8BBC1D5D-59BF-4956-B838-A3B8EE1E2371}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5E3A731B-1F8D-4F7F-BBA1-BB4175FC3D2E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT">
 							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
@@ -748,14 +748,14 @@
 				<row val0="Zephyr Squad Cloud" />
 			</data>
 		</setting>
-		<setting name="ZFJ_JiraLogin" type="5" value="" />
-		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraLogin" type="5" value="gabriel.demoura@smartbear.com" />
+		<setting name="ZFJ_JiraPassword" type="5" value="3A029EEB41C5F2BB64A7628D9AC0A56C5F81DB6050AD5FDFDBA190A97A2BD0DB23393AFA3CCE0110009126E46A4E4AEB820FA39DF2EB" />
 		<setting name="ZFJ_JiraProject" type="5" value="" />
-		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="https://smartbeardemo.atlassian.net/" />
 		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
 		<setting name="ZFJ_Version" type="5" value="" />
-		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
-		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="MzFkZTA1ZTgtMWRkZi0zNDY2LTk3OWUtYzg4OGQzMzhlNmI3IDYxMmQyYzc3NzY4MDhkMDA2YWY5YWVjNyBVU0VSX0RFRkFVTFRfTkFNRQ" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="cniyCMxl_ML07qaCpY5FLgupxFQVBnhzXL_tnEiyWh4" />
 	</settings>
 	<analysis key="{CF5EC68C-2A00-4C66-91E9-9053E36A2AB2}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
