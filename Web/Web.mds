@@ -18,6 +18,7 @@
 						</testParameters>
 						<environments activeCloud="SWT">
 							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/" />
+							<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/" />
 						</environments>
 						<children>
 							<testItem name="secondTest" key="{24B34842-7927-4B8A-8022-4BC8F769C6F6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5165A0D9-8184-4629-A019-9AE9747DD1BB}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
@@ -43,7 +44,7 @@
 			<testItem name="TC+BB" key="{7CB387FF-4333-4C77-A96B-2E2FFDF919B3}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="BBlogin" key="{8BBC1D5D-59BF-4956-B838-A3B8EE1E2371}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5E3A731B-1F8D-4F7F-BBA1-BB4175FC3D2E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+					<testItem name="BBlogin" key="{8BBC1D5D-59BF-4956-B838-A3B8EE1E2371}" group="False" parallel="False" enabled="False" testMoniker="KDT\{5E3A731B-1F8D-4F7F-BBA1-BB4175FC3D2E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT">
 							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
@@ -73,6 +74,16 @@
 				</Variable>
 				<Variable Name="Password2" Type="Password" Local="False">
 					<DefValue StrValue="38003900360031003100330044003100460034004400380038004200460031003800430039003800410037003900330033004100390041003000390035003300420038003300320044003400330042003800320032003100310041003500460035004500420046004400350031004100350043004100450037004600" />
+				</Variable>
+				<Variable Name="Var1" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Var11" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
+					</DefValue>
 				</Variable>
 			</Items>
 		</data>
@@ -355,7 +366,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -373,6 +384,7 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
+				<row val0="True" val1="WindowsForms10.ToolbarWindow32.app.0.141b42a_r8_ad1" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
@@ -734,7 +746,7 @@
 				<row val0="CrossBrowserTesting" />
 			</data>
 		</setting>
-		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_Cycle" type="5" value="Ad hoc" />
 		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
 		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
 		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
@@ -750,10 +762,10 @@
 		</setting>
 		<setting name="ZFJ_JiraLogin" type="5" value="gabriel.demoura@smartbear.com" />
 		<setting name="ZFJ_JiraPassword" type="5" value="3A029EEB41C5F2BB64A7628D9AC0A56C5F81DB6050AD5FDFDBA190A97A2BD0DB23393AFA3CCE0110009126E46A4E4AEB820FA39DF2EB" />
-		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="Gabe" />
 		<setting name="ZFJ_JiraUrl" type="5" value="https://smartbeardemo.atlassian.net/" />
 		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
-		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_Version" type="5" value="&lt;Unscheduled&gt;" />
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="MzFkZTA1ZTgtMWRkZi0zNDY2LTk3OWUtYzg4OGQzMzhlNmI3IDYxMmQyYzc3NzY4MDhkMDA2YWY5YWVjNyBVU0VSX0RFRkFVTFRfTkFNRQ" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="cniyCMxl_ML07qaCpY5FLgupxFQVBnhzXL_tnEiyWh4" />
 	</settings>

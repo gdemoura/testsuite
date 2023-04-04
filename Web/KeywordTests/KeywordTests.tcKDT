@@ -8,12 +8,10 @@
 			<child name="logout" key="{5306D129-C2E5-4666-97EA-64AAF8285DBC}" path="logout.tcKDTest" />
 			<child name="purchase" key="{66868725-4AF4-4259-8377-C2AB360B6145}" path="purchase.tcKDTest" />
 		</folder>
-		<folder name="sandbox" />
-		<child name="Test1" key="{5E3A731B-1F8D-4F7F-BBA1-BB4175FC3D2E}" path="Test1.tcKDTest" />
-		<child name="loginFail" key="{E227E1D4-9E37-45FE-B1BD-57B6F8BC0F01}" path="loginFail.tcKDTest" />
-		<child name="contactUSData" key="{A5EBC3B0-DB3F-433B-B92D-E70D77534324}" path="contactUSData.tcKDTest" />
-		<child name="contactUsND" key="{09C67068-89F6-4E14-AFF9-457A1E2B44E9}" path="contactUsND.tcKDTest" />
-		<child name="Test2" key="{2135408E-0469-4433-9986-6973CF8B815F}" path="Test2.tcKDTest" />
-		<child name="Test3" key="{E98903B9-2404-4117-8274-EB1749E09BEB}" path="Test3.tcKDTest" />
+		<folder name="sandbox">
+			<child name="contactUSData" key="{A5EBC3B0-DB3F-433B-B92D-E70D77534324}" path="contactUSData.tcKDTest" />
+			<child name="contactUsND" key="{09C67068-89F6-4E14-AFF9-457A1E2B44E9}" path="contactUsND.tcKDTest" />
+			<child name="loginFail" key="{E227E1D4-9E37-45FE-B1BD-57B6F8BC0F01}" path="loginFail.tcKDTest" />
+		</folder>
 	</children>
 </Root>
